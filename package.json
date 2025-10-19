@@ -1,3 +1,4 @@
+
 {
   "name": "heins-agrotech",
   "version": "0.1.0",
@@ -5,17 +6,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build || node ./node_modules/vite/bin/vite.js build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
-    "leaflet-draw": "^1.0.4",
     "lucide-react": "^0.453.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-leaflet": "^4.2.1",
-    "react-leaflet-draw": "^0.21.0"
+    "react-leaflet": "^4.2.1"
   },
   "devDependencies": {
     "@types/leaflet": "^1.9.9",

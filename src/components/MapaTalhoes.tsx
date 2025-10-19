@@ -1,7 +1,6 @@
 'use client';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { MapContainer, TileLayer, FeatureGroup } from 'react-leaflet';
-import { EditControl } from 'react-leaflet-draw';
 import * as L from 'leaflet';
 import type { User } from '@/lib/auth';
 import type { Talhao } from '@/lib/data';
