@@ -3,6 +3,11 @@ import MapaTalhoes from '@/components/MapaTalhoes'
 import type { Talhao } from '@/lib/data'
 import type { User } from '@/lib/auth'
 
+// IMPORTA AS BIBLIOTECAS DO LEAFLET E DO LEAFLET-DRAW
+import 'leaflet/dist/leaflet.css';
+import 'leaflet-draw/dist/leaflet.draw.css';
+import 'leaflet-draw';
+
 type Drone = {
   id: string; nomeInterno: string; modelo: string; fabricante: string;
   numeroSerieOuMatricula?: string; capacidadeTanqueL?: number; larguraFaixaM?: number;
