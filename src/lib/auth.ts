@@ -1,0 +1,1 @@
+export type User = { role: 'master' | 'cliente' | 'piloto' | 'engenheiro'; name: string }

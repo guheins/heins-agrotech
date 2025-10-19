@@ -1,0 +1,4 @@
+#map { width: 100%; height: 100%; }
+.leaflet-container { width: 100%; height: 100%; }
+.hdr { position: absolute; top: 12px; left: 12px; background:#2d5c32; color:#fff; padding:8px 12px; border-radius:10px; font-weight:700; z-index:999; }
+.note { position:absolute; top:56px; left:12px; background:#e0f2fe; color:#075985; padding:6px 10px; border-radius:8px; z-index:999; }

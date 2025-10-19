@@ -1,0 +1,1 @@
+export type Talhao = { id: string; nome?: string; area_ha?: number; area?: number; geojson?: any }

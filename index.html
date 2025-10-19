@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heins Agrotech</title>
+    <style>
+      html, body, #root { height: 100%; margin: 0; }
+      .sheet { position: absolute; left: 0; right: 0; bottom: 0; background: #fff; border-radius: 16px 16px 0 0; box-shadow: 0 -8px 24px rgba(0,0,0,.18); transform: translateY(100%); animation: slideUp .28s ease-out forwards; }
+      @keyframes slideUp { from { transform: translateY(100%);} to { transform: translateY(0);} }
+      .btn { background:#2d5c32; color:#fff; border:none; padding:10px 14px; border-radius:10px; font-weight:600; }
+      .input { width: 100%; padding: 8px 10px; border:1px solid #e5e7eb; border-radius:8px; }
+      .label { font-size: 12px; color:#374151; margin-bottom:4px; display:block; }
+      .tag { background:#dcfce7; color:#14532d; padding:6px 10px; border-radius:8px; display:inline-block; }
+      .panel { padding:12px; border:1px solid #eee; border-radius:12px; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
